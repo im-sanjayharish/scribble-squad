@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "marvel",
+      "title": "Marvel Characters",
+      "emoji": "🦸",
+      "words": ["Iron Man", "Captain America", "Thor", "Hulk", "Black Widow", "Hawkeye", "Spider-Man", "Black Panther", "Doctor Strange", "Captain Marvel", "Ant-Man", "Wasp", "Scarlet Witch", "Vision", "Falcon", "Winter Soldier", "War Machine", "Loki", "Thanos", "Groot", "Rocket Raccoon", "Star-Lord", "Gamora", "Drax", "Nebula", "Mantis", "Wolverine", "Deadpool", "Cyclops", "Storm", "Rogue", "Gambit", "Beast", "Professor X", "Magneto", "Mystique", "Nightcrawler", "Jean Grey", "Colossus", "Iceman", "Venom", "Green Goblin", "Doctor Octopus", "Sandman", "Electro", "Vulture", "Mysterio", "Kingpin", "Daredevil", "Punisher", "Ghost Rider", "Silver Surfer", "Galactus", "Ultron", "Red Skull", "Hela", "Nick Fury", "Shang-Chi", "Moon Knight", "Ms. Marvel", "She-Hulk", "Miles Morales", "Valkyrie", "Okoye", "Shuri", "Namor", "Dormammu", "Kang", "Odin", "Heimdall", "Bucky Barnes", "Agent Coulson"]
+    },
+    {
+      "id": "dc",
+      "title": "DC Characters",
+      "emoji": "🦇",
+      "words": ["Batman", "Superman", "Wonder Woman", "Flash", "Aquaman", "Green Lantern", "Cyborg", "Joker", "Harley Quinn", "Catwoman", "Robin", "Batgirl", "Nightwing", "Supergirl", "Shazam", "Green Arrow", "Black Canary", "Martian Manhunter", "Lex Luthor", "Penguin", "Riddler", "Two-Face", "Bane", "Scarecrow", "Poison Ivy", "Mr. Freeze", "Darkseid", "Deathstroke", "Black Adam", "Raven", "Starfire", "Beast Boy", "Constantine", "Swamp Thing", "Zatanna", "Hawkgirl", "Killer Croc", "Clayface", "Doomsday", "Brainiac"]
+    },
+    {
+      "id": "harry-potter",
+      "title": "Harry Potter",
+      "emoji": "🧙",
+      "words": ["Harry Potter", "Hermione Granger", "Ron Weasley", "Dumbledore", "Snape", "Hagrid", "Voldemort", "Draco Malfoy", "Sirius Black", "Dobby", "Hedwig", "Buckbeak", "Fluffy", "Nagini", "Hogwarts", "Quidditch", "Golden Snitch", "Sorting Hat", "Invisibility Cloak", "Elder Wand", "Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw", "Butterbeer", "Basilisk", "Dementor", "Hippogriff", "Broomstick", "Luna Lovegood", "Neville Longbottom", "Moaning Myrtle", "Scabbers", "Crookshanks"]
+    },
+    {
+      "id": "pokemon",
+      "title": "Pokemon",
+      "emoji": "⚡",
+      "words": ["Pikachu", "Charmander", "Bulbasaur", "Squirtle", "Charizard", "Eevee", "Snorlax", "Jigglypuff", "Meowth", "Psyduck", "Mewtwo", "Mew", "Gengar", "Lucario", "Gyarados", "Magikarp", "Onix", "Geodude", "Ditto", "Togepi", "Vulpix", "Machamp", "Abra", "Ponyta", "Slowpoke", "Wooper", "Cubone", "Lapras", "Dragonite", "Articuno", "Zapdos", "Moltres", "Raichu", "Weedle", "Caterpie", "Butterfree", "Pidgeot", "Rattata", "Zubat", "Oddish", "Diglett", "Growlithe"]
+    },
+    {
+      "id": "cartoons",
+      "title": "Cartoon Characters",
+      "emoji": "📺",
+      "words": ["Mickey Mouse", "Donald Duck", "Tom", "Jerry", "Doraemon", "Nobita", "Shin-chan", "Chhota Bheem", "Motu Patlu", "Oggy", "Mr. Bean", "SpongeBob", "Patrick Star", "Bugs Bunny", "Scooby-Doo", "Popeye", "Pink Panther", "Mowgli", "Simba", "Shrek", "Minion", "Woody", "Buzz Lightyear", "Olaf", "Elsa", "Winnie the Pooh", "Tweety", "Garfield", "Snoopy", "Homer Simpson", "Bart Simpson", "Mario", "Sonic", "Ben 10", "Dora", "Peppa Pig", "Kung Fu Panda", "Nemo", "Dumbo", "Bambi"]
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "emoji": "🐘",
+      "words": ["Elephant", "Giraffe", "Lion", "Tiger", "Zebra", "Kangaroo", "Penguin", "Dolphin", "Octopus", "Crocodile", "Peacock", "Owl", "Eagle", "Camel", "Monkey", "Panda", "Koala", "Rhinoceros", "Hippopotamus", "Cheetah", "Leopard", "Bear", "Wolf", "Fox", "Rabbit", "Squirrel", "Bat", "Snake", "Turtle", "Frog", "Butterfly", "Spider", "Scorpion", "Crab", "Lobster", "Shark", "Whale", "Seahorse", "Jellyfish", "Starfish", "Parrot", "Flamingo", "Duck", "Hen", "Rooster", "Cow", "Buffalo", "Goat", "Sheep", "Horse", "Donkey", "Pig", "Dog", "Cat", "Mosquito", "Ant", "Bee", "Snail", "Hedgehog", "Sloth", "Gorilla"]
+    },
+    {
+      "id": "indian-food",
+      "title": "Indian Food",
+      "emoji": "🍛",
+      "words": ["Dosa", "Idli", "Vada", "Sambar", "Biryani", "Pongal", "Parotta", "Chapati", "Naan", "Samosa", "Pani Puri", "Vada Pav", "Pav Bhaji", "Gulab Jamun", "Jalebi", "Rasgulla", "Payasam", "Laddu", "Halwa", "Poori", "Upma", "Chicken 65", "Butter Chicken", "Paneer Tikka", "Tandoori Chicken", "Rasam", "Curd Rice", "Lemon Rice", "Filter Coffee", "Masala Tea", "Lassi", "Kulfi", "Bhel Puri", "Dhokla", "Pakora", "Momos", "Kebab", "Paratha", "Appam", "Murukku"]
+    },
+    {
+      "id": "fruits-veg",
+      "title": "Fruits and Vegetables",
+      "emoji": "🍎",
+      "words": ["Apple", "Banana", "Mango", "Orange", "Grapes", "Watermelon", "Pineapple", "Strawberry", "Papaya", "Pomegranate", "Coconut", "Guava", "Lemon", "Cherry", "Kiwi", "Jackfruit", "Tomato", "Potato", "Onion", "Carrot", "Brinjal", "Cauliflower", "Cabbage", "Corn", "Pumpkin", "Cucumber", "Okra", "Garlic", "Ginger", "Chilli", "Mushroom", "Radish", "Beetroot", "Peas", "Broccoli", "Capsicum", "Drumstick", "Sweet Potato"]
+    },
+    {
+      "id": "places",
+      "title": "Famous Places",
+      "emoji": "🗺️",
+      "words": ["Taj Mahal", "Eiffel Tower", "Statue of Liberty", "Great Wall of China", "Pyramids of Giza", "Big Ben", "Leaning Tower of Pisa", "Colosseum", "Sydney Opera House", "Burj Khalifa", "Mount Everest", "Niagara Falls", "Golden Gate Bridge", "Machu Picchu", "Stonehenge", "Christ the Redeemer", "Red Fort", "India Gate", "Gateway of India", "Charminar", "Marina Beach", "Meenakshi Temple", "Qutub Minar", "Hawa Mahal", "Golden Temple", "Mysore Palace", "Victoria Memorial", "Statue of Unity", "Kanyakumari", "Mount Fuji", "Times Square", "Mount Rushmore", "Angkor Wat", "Petra", "Grand Canyon", "White House"]
+    },
+    {
+      "id": "sports",
+      "title": "Sports and Games",
+      "emoji": "🏏",
+      "words": ["Cricket", "Football", "Basketball", "Tennis", "Badminton", "Hockey", "Kabaddi", "Volleyball", "Swimming", "Boxing", "Wrestling", "Archery", "Chess", "Carrom", "Ludo", "Snakes and Ladders", "Table Tennis", "Golf", "Baseball", "Rugby", "Skating", "Cycling", "Weightlifting", "Gymnastics", "High Jump", "Long Jump", "Javelin Throw", "Pole Vault", "Surfing", "Skiing", "Karate", "Yoga", "Kho Kho", "Marathon", "Bowling"]
+    },
+    {
+      "id": "vehicles",
+      "title": "Vehicles",
+      "emoji": "🚗",
+      "words": ["Auto Rickshaw", "Bicycle", "Motorcycle", "Scooter", "Car", "Bus", "Truck", "Train", "Metro", "Aeroplane", "Helicopter", "Ship", "Submarine", "Rocket", "Tractor", "Ambulance", "Fire Engine", "Police Jeep", "Bullock Cart", "Cycle Rickshaw", "Hot Air Balloon", "Speed Boat", "Sailboat", "Jet Ski", "Skateboard", "Tram", "Van", "Bulldozer", "Crane"]
+    },
+    {
+      "id": "objects",
+      "title": "Everyday Objects",
+      "emoji": "🔑",
+      "words": ["Umbrella", "Spectacles", "Wristwatch", "Key", "Lock", "Candle", "Bucket", "Broom", "Scissors", "Pencil", "Eraser", "Backpack", "Mobile Phone", "Laptop", "Headphones", "Television", "Remote", "Ceiling Fan", "Table Fan", "Mixer Grinder", "Pressure Cooker", "Iron Box", "Bulb", "Torch", "Clock", "Mirror", "Comb", "Toothbrush", "Soap", "Towel", "Pillow", "Bed", "Chair", "Table", "Door", "Window", "Ladder", "Hammer", "Screwdriver", "Camera", "Guitar", "Drum", "Violin", "Balloon", "Kite", "Spoon", "Fork", "Plate", "Glass", "Kettle", "Frying Pan"]
+    },
+    {
+      "id": "professions",
+      "title": "Professions",
+      "emoji": "👩‍⚕️",
+      "words": ["Doctor", "Nurse", "Teacher", "Police Officer", "Firefighter", "Farmer", "Chef", "Pilot", "Astronaut", "Engineer", "Lawyer", "Judge", "Carpenter", "Plumber", "Electrician", "Tailor", "Barber", "Painter", "Singer", "Dancer", "Photographer", "Mechanic", "Postman", "Fisherman", "Scientist", "Soldier", "Magician", "Clown", "Dentist", "Driver", "Cricketer"]
+    }
+  ]
+}
