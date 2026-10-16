@@ -31,6 +31,8 @@ export interface Room {
   wordChoices: string[]; 
   hintRevealed: number[]; 
   drawnPathEvents: any[]; 
+  hintLength?: number;
+  isWordSpace?: boolean[];
 }
 
 export interface TopicPack {

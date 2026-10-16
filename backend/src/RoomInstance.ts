@@ -166,6 +166,12 @@ export class RoomInstance {
     // Broadcast state
     this.broadcastState();
 
+    this.io.to(this.data.id).emit('turn_picking', {
+      drawerId,
+      endTime: this.data.turnEndTime,
+      wordChoices: this.data.wordChoices,
+    });
+
     // Auto-pick if time expires
     this.turnTimer = setTimeout(() => {
       this.onWordPicked(this.data.wordChoices[0]); // Pick first word by default
@@ -194,6 +200,14 @@ export class RoomInstance {
     this.data.turnEndTime = Date.now() + this.timeTotalForTurn;
 
     this.broadcastState(); // Updates room state
+
+    const isWordSpace = word.split('').map(c => c === ' ' || c === '-');
+    this.io.to(this.data.id).emit('turn_drawing', {
+      drawerId: this.data.currentTurnPlayerId!,
+      endTime: this.data.turnEndTime,
+      hintLength: word.length,
+      isWordSpace,
+    });
 
     // Set turn timer
     this.turnTimer = setTimeout(() => {
@@ -352,6 +366,10 @@ export class RoomInstance {
       }
       if ((this.data.state === 'drawing' || this.data.state === 'picking') && p.id !== this.data.currentTurnPlayerId) {
         pRoom.wordToGuess = null;
+      }
+      if (this.data.wordToGuess) {
+        pRoom.hintLength = this.data.wordToGuess.length;
+        pRoom.isWordSpace = this.data.wordToGuess.split('').map(c => c === ' ' || c === '-');
       }
       this.io.to(p.socketId).emit('room_update', pRoom);
     });
