@@ -6,6 +6,11 @@
       "title": "Marvel Characters",
       "emoji": "🦸",
       "words": ["Iron Man", "Captain America", "Thor", "Hulk", "Black Widow", "Hawkeye", "Spider-Man", "Black Panther", "Doctor Strange", "Captain Marvel", "Ant-Man", "Wasp", "Scarlet Witch", "Vision", "Falcon", "Winter Soldier", "War Machine", "Loki", "Thanos", "Groot", "Rocket Raccoon", "Star-Lord", "Gamora", "Drax", "Nebula", "Mantis", "Wolverine", "Deadpool", "Cyclops", "Storm", "Rogue", "Gambit", "Beast", "Professor X", "Magneto", "Mystique", "Nightcrawler", "Jean Grey", "Colossus", "Iceman", "Venom", "Green Goblin", "Doctor Octopus", "Sandman", "Electro", "Vulture", "Mysterio", "Kingpin", "Daredevil", "Punisher", "Ghost Rider", "Silver Surfer", "Galactus", "Ultron", "Red Skull", "Hela", "Nick Fury", "Shang-Chi", "Moon Knight", "Ms. Marvel", "She-Hulk", "Miles Morales", "Valkyrie", "Okoye", "Shuri", "Namor", "Dormammu", "Kang", "Odin", "Heimdall", "Bucky Barnes", "Agent Coulson"]
+    {
+      "id": "ben10",
+      "title": "Ben 10 Aliens",
+      "emoji": "👽",
+      "words": ["Heatblast", "Four Arms", "XLR8", "Diamondhead", "Upgrade", "Ripjaws", "Ghostfreak", "Wildmutt", "Grey Matter", "Stinkfly", "Cannonbolt", "Wildvine", "Blitzwolfer", "Snare-oh", "Frankenstrike", "Upchuck", "Ditto", "Eye Guy", "Way Big", "Arctiguana", "Buzzshock", "Swampfire", "Humungousaur", "Big Chill", "Chromastone", "Jetray", "Spidermonkey", "Goop", "Brainstorm", "Echo Echo", "Alien X", "Lodestar", "Rath", "Nanomech", "Water Hazard", "AmpFibian", "Armodrillo", "Terraspin", "NRG", "Fasttrack", "ChamAlien", "Eatle", "Clockwork", "Juryrigg", "Shocksquatch", "Feedback", "Gravattack", "Bloxx", "Crashhopper", "Ball Weevil", "Pesky Dust", "Walkatrout", "Mole-Stache", "The Worst", "Kickin Hawk", "Toepick", "Astrodactyl", "Bullfrag", "Atomix", "Gutrot", "Whampire", "Ultimate Humungousaur", "Ultimate Echo Echo", "Ultimate Swampfire", "Ultimate Spidermonkey", "Ultimate Big Chill", "Ultimate Cannonbolt"]
     },
     {
       "id": "dc",
