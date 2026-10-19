@@ -13,6 +13,8 @@ export class RoomInstance {
   
   // Track players who haven't drawn in this round
   private remainingDrawersThisRound: string[] = [];
+  // Track words used in this game so characters don't repeat
+  private usedWordsInGame: Set<string> = new Set<string>();
 
   constructor(id: string, io: Server, hostPlayer: Player) {
     this.io = io;
@@ -22,7 +24,7 @@ export class RoomInstance {
       hostId: hostPlayer.id,
       state: 'waiting',
       settings: {
-        topicPack: 'marvel', // default
+        topicPack: 'avengers', // default Avengers
         rounds: 3,
         drawTime: 60,
         customWords: [],
@@ -106,10 +108,11 @@ export class RoomInstance {
     this.touch();
     if (this.data.players.length < 2) return; // Need at least 2
     
-    // Reset scores
+    // Reset scores & used words
     this.data.players.forEach(p => p.score = 0);
     this.data.currentRound = 1;
     this.data.drawnPathEvents = [];
+    this.usedWordsInGame.clear();
     
     this.startRound();
     this.io.to(this.data.id).emit('game_started');
@@ -155,9 +158,14 @@ export class RoomInstance {
     this.data.currentTurnPlayerId = drawerId;
     this.data.state = 'picking';
     
-    // Select words
+    // Select words from the full pool, filtering out characters already used in this game
     const wordsPool = getWordsForTopic(this.data.settings.topicPack, this.data.settings.customWords);
-    this.data.wordChoices = getRandomWords(wordsPool, 3);
+    let availableWords = wordsPool.filter(w => !this.usedWordsInGame.has(w.toLowerCase()));
+    if (availableWords.length < 3) {
+      this.usedWordsInGame.clear();
+      availableWords = wordsPool;
+    }
+    this.data.wordChoices = getRandomWords(availableWords, 3);
 
     // End time for picking
     const pickTime = 10000;
@@ -184,6 +192,7 @@ export class RoomInstance {
     this.clearTimers();
     
     this.data.wordToGuess = word;
+    this.usedWordsInGame.add(word.toLowerCase());
     this.data.state = 'drawing';
     const drawer = this.getPlayer(this.data.currentTurnPlayerId!);
     if (drawer) {
